@@ -1,14 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "Status": 200,
+  "SagmillList": {
+    "SAG_2": {
+      "Name": "SAG_2",
+      "Shift": "A",
+      "Status": 1,
+      "Performance": 1496.3142373332141,
+      "ShiftPml": 0.17872968980797638,
+      "DayPml": 0.0
+    },
+    "SAG_1": {
+      "Name": "SAG_1",
+      "Shift": "A",
+      "Status": 1,
+      "Performance": 2667.849837666667,
+      "ShiftPml": 1.0,
+      "DayPml": 0.0
+    },
+    "SAG_3": {
+      "Name": "SAG_3",
+      "Shift": "A",
+      "Status": 1,
+      "Performance": 2999.4251473333334,
+      "ShiftPml": 0.4121122599704579,
+      "DayPml": 0.0
+    }
   }
 }
